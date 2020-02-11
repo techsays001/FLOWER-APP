@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Teachers_detailes_Admin">
+
+
+    <com.comix.rounded.RoundedCornerImageView
+        android:id="@+id/imgview11"
+        android:layout_width="289dp"
+        android:layout_height="201dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        app:cornerBottomDisable="false"
+        app:cornerLeftDisable="false"
+        app:cornerRadius="6dp"
+
+        app:cornerRightDisable="false"
+        app:cornerTopDisable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <Button
+        android:id="@+id/imgupload11"
+        android:layout_width="248dp"
+        android:layout_height="42dp"
+        android:background="@drawable/btn"
+        android:ems="10"
+        android:hint="Pick Image"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <Button
+        android:id="@+id/f_btn11"
+        android:layout_width="174dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:text="UPLOAD"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+</android.support.constraint.ConstraintLayout>

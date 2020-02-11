@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Teachers_detailes_Admin">
+
+
+
+            <EditText
+                android:id="@+id/productname2"
+                android:layout_width="248dp"
+                android:layout_height="42dp"
+                android:background="@drawable/bt"
+                android:drawableStart="@drawable/enter"
+                android:drawableLeft="@drawable/enter"
+                android:ems="10"
+                android:hint="Product ID"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.85" />
+
+
+            <com.comix.rounded.RoundedCornerImageView
+                android:id="@+id/imgview"
+                android:layout_width="289dp"
+                android:layout_height="201dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:cornerBottomDisable="false"
+                app:cornerLeftDisable="false"
+                app:cornerRadius="6dp"
+                app:cornerRightDisable="false"
+                app:cornerTopDisable="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.71" />
+
+
+            <Button
+                android:id="@+id/imgupload"
+                android:layout_width="248dp"
+                android:layout_height="42dp"
+                android:background="@drawable/btn"
+                android:ems="10"
+                android:hint="Upload Product Image"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColorHint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.48" />
+
+            <EditText
+                android:id="@+id/productammount"
+                android:layout_width="248dp"
+                android:layout_height="42dp"
+                android:background="@drawable/bt"
+                android:drawableStart="@drawable/enter"
+                android:drawableLeft="@drawable/enter"
+                android:ems="10"
+                android:hint="Amount"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.38" />
+
+            <EditText
+                android:id="@+id/productname"
+                android:layout_width="248dp"
+                android:layout_height="42dp"
+                android:background="@drawable/bt"
+                android:drawableStart="@drawable/enter"
+                android:drawableLeft="@drawable/enter"
+                android:ems="10"
+                android:hint="Product Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.174" />
+
+            <EditText
+                android:id="@+id/productdetailes"
+                android:layout_width="248dp"
+                android:layout_height="42dp"
+                android:background="@drawable/bt"
+                android:drawableStart="@drawable/enter"
+                android:drawableLeft="@drawable/enter"
+                android:ems="10"
+                android:hint="Product Detailes"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.285" />
+
+            <Button
+                android:id="@+id/f_btn"
+                android:layout_width="174dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn"
+                android:text="UPLOAD"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.929" />
+
+
+
+</android.support.constraint.ConstraintLayout>
